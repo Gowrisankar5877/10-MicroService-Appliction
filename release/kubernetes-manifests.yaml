@@ -428,7 +428,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: gowricr.azurecr.io/productcatalogserviceimage
+        image: gowricr.azurecr.io/productcatalogimage
         ports:
         - containerPort: 3550
         env:
